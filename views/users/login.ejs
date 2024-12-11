@@ -1,0 +1,30 @@
+<% layout('/layout/boilerplate') %>
+    <link rel="stylesheet" href="/stylesheets/backgroundColor.css">
+
+
+    <div class="container d-flex justify-content-center align-items-center mt-4">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <div class="card shadow login">
+                    <img src="https://res.cloudinary.com/dyhzgkf3p/image/upload/v1717687801/CampScape/u6uukhnvt37zpojpwvsp.webp"
+                        alt="" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Login</h5>
+                        <form action="/login" method="POST" class="validation-required" novalidate>
+                            <div class="mb-3">
+                                <label class="form-label" for="username">Username</label>
+                                <input class="form-control input" type="text" placeholder="username" id="username"
+                                    name="username" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="password">Password</label>
+                                <input class="form-control input" type="password" placeholder="password" id="password"
+                                    name="password" required>
+                            </div>
+                            <button class="btn btn-success">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

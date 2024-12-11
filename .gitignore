@@ -1,6 +1,7 @@
 # Environment files
 .env.local
 .env.*.local
+.env
 
 # Node.js dependencies
 node_modules
